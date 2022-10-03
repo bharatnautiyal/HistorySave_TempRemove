@@ -1,3 +1,6 @@
+#delete all temp files
+
+
 @echo off    
 del /s /f /q %windir%\temp\*.*    
 rd /s /q %windir%\temp    

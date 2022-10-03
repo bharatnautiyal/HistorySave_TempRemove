@@ -4,3 +4,5 @@ for /f "delims=: tokens=2" %%i in ('ipconfig /displaydns^|find "Record Name"') d
 timeout /nobreak 5 >nul 2>&1
 sort history.txt /o history.txt
 goto top
+
+#test for git
